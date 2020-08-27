@@ -18,7 +18,6 @@ function exe7(vet){ // vet representa vetor -> o que fizemos com vet, será feit
         numero = Number(prompt(`Informe outro numero, informe numero negativo para encerrar`))
     }
     while (numero >= 0)
-
 }
 
 function calculaMedia(vet){
