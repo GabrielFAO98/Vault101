@@ -1,14 +1,13 @@
 chefe()
 
 function chefe(){
-    var vetor + [] // declara o vetor
+    var vetor = [] // declara o vetor
     exe7(vetor) //estamos passando o vetor como parâmetro = escopo global
     console.log(vetor)
     calculaMedia(vetor)
-
 }
 
-
+// entrada de dados
 function exe7(vet){ // vet representa vetor -> o que fizemos com vet, será feito em vetor
 
     var numero = Number(prompt(`Informe um numero`))
